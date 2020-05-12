@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 150px;
+    background-position: center;
+    border-color: sienna;
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px 50px;
+}
+
+h1 {
+    color: sienna;
+}
+
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2023";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: sienna; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  ol {
+      list-style: none; counter-reset: li
+    }
+
+    ol li::before {
+        content: counter(li); 
+        color: sienna;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    ol li {
+        counter-increment: li;
+    }
