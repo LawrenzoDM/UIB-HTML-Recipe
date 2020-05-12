@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding-left: 3rem;
+    line-height: 1.6rem;
+}
+
+h1 {
+    color: black;
+}
+
+ul {
+    color: #79ff61;
+}
+
+ol {
+    color: #ff9933;
+}
