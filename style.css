@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+  }
+ul {
+color: green;
+list-style-type: none;
+}
+ol {
+color: orangered;
+p{
+    color: blu;
+}
+}
