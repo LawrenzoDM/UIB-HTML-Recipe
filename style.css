@@ -1,0 +1,31 @@
+main{
+    background-color: rgb(93, 196, 153);
+    padding: 30px;
+
+}
+header{
+    background-color: rgb(9, 112, 43);
+    padding: 10px;
+}
+h1{
+    color: rgb(92, 8, 5);
+    text-align: center;
+}
+h2{
+    text-align: justify;
+    color: rgb(100, 12, 12);
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    color: darkred;
+    align-self: center;
+}
+ul{
+    color: rgb(9, 8, 94);
+    font-style: italic;
+}
+ol{
+    color: rgb(105, 11, 50);
+    font-family: 'Courier New', Courier, monospace;
+}
