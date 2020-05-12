@@ -25,3 +25,11 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.unorderedlist {
+  color: gray;
+}
+
+.orderedlist {
+  color: rosybrown;
+}
